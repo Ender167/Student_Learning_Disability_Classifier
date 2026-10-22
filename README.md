@@ -9,6 +9,10 @@ Also contains the feature analysis pipeline used, which includes:
 * Dataset cleaning which removes improper entries (null, wrong data types);
 * Feature encoding using a custom Label Encoder for categorical features;
 
+For more details on the custom model and the comparison between it and scikit-learn's model, check the [following](Documentation/ParallelRandomForestDoc.pdf).
+
+For more details on dataset preprocessing, check the [following](Documentation/StudentPerformanceFactorsAnalysis.pdf).
+
 # Metrics
 
 The following metrics are used to evaluate the model's performance: train/test accuracy, precision, recall, F1, AUC, AUPRC, 95% confidence intervals, 5-fold cross validation.
